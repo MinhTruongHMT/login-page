@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="content">
+            <div class="login">
+
+            </div>
+            <div class="login-image">
+                <div style="display: flex; flex-direction: row; margin-left: -160px;">
+                    <img src="image/Character-working-laptop-sitting-chair.png"
+                    alt="">
+                <img src="image/plant.png" alt="">
+                </div>
+               
+            </div>
+            <form  class="form-login" >
+                <div>
+                    <h1>Log In</h1>
+                </div>
+
+                <label for="">Username</label>
+                <div class="div-input" >
+                    <input type="text" name="Username" id="Username">
+                </div>
+
+
+                <div class="div-input">
+                    <div class="password">
+                        <label for="">Password </label>
+                        <a href="">Forgot Password ?</a>
+                    </div>
+                    <input type="password" name="Password" id="Password">
+                </div>
+
+                <div class="button-div">
+                    <button onclick="login(event)">Login In <img src="image/Vector (17).png"></button>
+                </div>
+                <input type="submit" value="LOGIN NOW" onclick="login()">
+                <div class="contine">
+                    <p>or continue with</p>
+                    <div style="display: flex;flex-direction: row;
+                        justify-content: space-evenly;">
+                        <div class="button-continue">
+                            <button><img src="image/Google.png"></button>
+                        </div>
+                        <div class="button-continue">
+                            <button><img src="image/Github.png"></button>
+                        </div>
+                        <div class="button-continue">
+                            <button><img src="image/Facebook.png"></button>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="password-continue">
+                    <label for="">Don’t have an account yet?</label>
+                    <a href="">Sign up for free</a>
+                </div>
+            </form>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
